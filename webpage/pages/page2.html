@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> My second page</title>
+    <!--this is a comment-->
+    </head>
+    <body>
+        <script  src="../scripts/script.css"></script>
+    <h1>Here is some text</h1>
+        <p>This is a paragraph</p>
+        
+        <h2>This s a form for data entry</h2>
+        <form>
+            First Name:<br>
+        <input type="text" required><br>
+            Last Name:<br>
+        <input type="text" required><br>
+            <!--Radio buttons-->
+            Distance from school<br>
+            <input name="distance" value="<1" type="radio">Less than a mile<br>
+            <input name="distance" value="1<5" type="radio">More than a mile less than 5 miles<br>
+            <input name="distance" value=">5" type="radio">More than 5 miles<br>
+            <!--Drop menu-->
+            <select name="danceType">
+            <option value="Tango">Tango</option>
+            <option value="Salsa">Salsa</option>
+            <option value="Reggaeton">Reggaeton</option>
+            </select><br>
+            <!--Text area-->
+            <textarea name="experience" rows="10" cols="30" required placeholder="name"></textarea><br>
+            <textarea name="disclaimer" rows="5" cols="30" disabled>you might die while leraning to dance you enroll in this class at your own risk.</textarea>
+            
+            <input type="submit"><!--input types button password submit date email checkbox-->
+        </form>
+        
+    </body>
+
+</html>

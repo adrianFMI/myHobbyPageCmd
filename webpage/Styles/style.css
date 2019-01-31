@@ -1,0 +1,54 @@
+/*
+# is for id
+. is for classes
+*/
+body{/*this is a commnet here*/
+background-color: azure;  
+    font-family: sans-serif;
+    padding: 15px;
+}
+h1, h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-size: 1em;
+}
+th{
+    padding: 15px;     
+} 
+td {
+  border: 1px solid black;
+  padding: 15px;  
+}
+table{
+    background-color: white;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+tr{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-family: sans-serif;
+    text-align: justify;
+}
+.logoImg{
+    height: 50px;
+    border-radius: 5px;
+}
+.gameImg{
+    height: 100px;
+}
+#formTable{
+    width: 40%;
+    background-color: transparent;
+}
+#formTable td{
+    border: 5px;
+}
