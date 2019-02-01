@@ -1,5 +1,5 @@
 <!DOCTYPE html> 
-<html>
+<html lang="en">
 <head>
     <title>My Hobby Page</title>
     <link href="../Styles/style.css" rel="stylesheet" type="text/css">
@@ -15,7 +15,7 @@
             <h4>Games</h4>
         
         <table id="smartTable">
-        <th colspan="4"><strong>Game list (Smartphone)</strong></th>
+        <tr> <th colspan="4"><strong>Game list (Smartphone)</strong><a href="#main"><img src="../imgs/arrowUp.png" alt="upArrow" class="arrow"></a><a href="#nSwitch"><img src="../imgs/arrowDown.png" alt="downArrow" class="arrow"></a></th></tr>
             <tr>
             <td>Name</td>
             <td>Description</td>    
@@ -40,7 +40,7 @@
         </table>
         
                 <table id="nSwitch">
-        <th colspan="4"><strong>Game list (Nintendo Switch)</strong></th>
+                    <tr><th colspan="4"><strong>Game list (Nintendo Switch)</strong><a href="#smartTable"><img src="../imgs/arrowUp.png" alt="upArrow" class="arrow"></a><a href="#bottom"><img src="../imgs/arrowDown.png" alt="downArrow" class="arrow"></a></th></tr>
             <tr>
             <td>Name</td>
             <td>Description</td>    
@@ -61,27 +61,28 @@
             </tr>
         </table>
         <h3>Send my your opinion</h3>
-        <table id="formTable">
         <form>
-        <tr><td><label>User</label></td><td><input type="text" required></td></tr>
-        <tr><td><label>Full Name</label></td><td><input type="text"></td></tr>
-        <tr><td><label>E-mail</label></td><td><input type="text" required></td></tr>   
-        <tr><td><label>Which game(s) would you play?</label></td><td>
-        <label for="game1">Fate Grand Order</label><input type="checkbox" name="game1"><br>  
-        <label for="game2">King of Fighters</label><input type="checkbox" name="game2"><br>
-        <label for="game3">Monster Hunter Generation Ultimate</label><input type="checkbox" name="game3"><br>
-        <label for="game1">Super Smash Bros Ultimate</label><input type="checkbox" name="game4"></td></tr> 
-        <tr><td><label>Which one you prefer?</label></td><td><select name="games">
+        <table id="formTable">
+        <tr><td class="tag"><label>User</label></td><td><input type="text" required></td></tr>
+        <tr><td class="tag"><label>Full Name</label></td><td><input type="text"></td></tr>
+        <tr><td class="tag"><label>E-mail</label></td><td><input type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></td></tr>   
+        <tr><td class="tag"><label>Which game(s) would you play?</label></td>
+        <td class="tag">
+        <label for="game1">Fate Grand Order</label><input type="checkbox" id="game1"><br>  
+        <label for="game2">King of Fighters</label><input type="checkbox" id="game2"><br>
+        <label for="game3">Monster Hunter Generation Ultimate</label><input type="checkbox" id="game3"><br>
+        <label for="game4">Super Smash Bros Ultimate</label><input type="checkbox" id="game4"></td></tr> 
+        <tr><td class="tag"><label>Which one you prefer?</label></td><td><select name="games">
             <option value="FGO">Fate Grand Order</option>
             <option value="KOF">King of fighters</option>
             <option value="MHGU">Monster Hunter Generation Ultimate</option>
             <option value="SSBU">Super Smah Bros Ultimate</option>
             </select></td></tr> 
             <tr><td colspan="2"><textarea name="comment" rows="10" cols="50" placeholder="Write here your comment" required></textarea></td></tr>
-        <tr><td colspan="2"><label for="comfirm">Are you Human</label><input type="checkbox" name="comfirm" required></td></tr> 
+        <tr><td colspan="2"><label for="comfirm">Are you Human</label><input type="checkbox" id="comfirm" required></td></tr> 
             <tr><td colspan="2"><input type="submit" value="Submit"></td></tr> 
-        </form>
         </table>
+            </form>
                 <h5><a href="#main">Back top</a></h5> 
         <h5><a href="../index.html" id="bottom">Return</a></h5>
         
