@@ -1,90 +1,152 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Hobby Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link href="../Styles/style.css" rel="stylesheet" type="text/css">
-    </head>
-    <body>
-        <h1 id="main">My Hobby</h1>
-        <p>My favorite hobby is play videogames</p>
-        <h2>My gaming systems</h2>
-        <ul>
-        <li><h4><a href="#smartTable">Smartphone</a></h4></li>
-        <li><h4><a href="#nSwitch">Nintendo Switch</a></h4></li>
-        </ul>
-            <h4>Games</h4>
-        
-        <table id="smartTable">
-        <tr> <th colspan="4"><strong>Game list (Smartphone)</strong><a href="#main"><img src="../imgs/arrowUp.png" alt="upArrow" class="arrow"></a><a href="#nSwitch"><img src="../imgs/arrowDown.png" alt="downArrow" class="arrow"></a></th></tr>
-            <tr>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="../imgs/3.jpg" alt="myPicture" class="navIcon">
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">My hobby</a></li>
+                    <li>
+                        <a href="#smartTable">Smartphone</a>
+                    </li>
+                    <li>
+                        <a href="#nSwitch">Nintendo Switch</a>
+                    </li>
+                    <li>
+                        <a href="#main">Back top</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h1 id="main">My Hobby</h1>
+    <p>My favorite hobby is play videogames</p>
+    <h2>My gaming systems</h2>
+
+    <h4>Games</h4>
+
+    <table id="smartTable">
+        <tr>
+            <th colspan="4"><strong>Game list (Smartphone)</strong><a href="#main"><img src="../imgs/arrowUp.png" alt="upArrow" class="arrow"></a><a href="#nSwitch"><img src="../imgs/arrowDown.png" alt="downArrow" class="arrow"></a></th>
+        </tr>
+        <tr>
             <td>Name</td>
-            <td>Description</td>    
+            <td>Description</td>
             <td>Image</td>
-            <td>Link</td>      
-            </tr>
-                        <tr>
+            <td>Link</td>
+        </tr>
+        <tr>
             <td>Fate Grand Order (FGO)</td>
-            <td><p>A new mobile "Fate RPG," presented by TYPE-MOON!
-                With an impressive main scenario and multiple character quests,
-                the game features millions of words of original story!
-                Packed with content that both fans of the Fate franchise and newcomers will be able to enjoy.</p></td>
+            <td>
+                <p>A new mobile "Fate RPG," presented by TYPE-MOON!
+                    With an impressive main scenario and multiple character quests,
+                    the game features millions of words of original story!
+                    Packed with content that both fans of the Fate franchise and newcomers will be able to enjoy.</p>
+            </td>
             <td><img src="../imgs/fgoimg.jpg" alt="Game 1 img" class="gameImg"></td>
-            <td><a href="https://fate-go.us/eor/"><img src="../imgs/fgoLogo.png" alt="link img" class="logoImg"></a></td>      
-            </tr>
-                        <tr>
+            <td><a href="https://fate-go.us/eor/"><img src="../imgs/fgoLogo.png" alt="link img" class="logoImg"></a></td>
+        </tr>
+        <tr>
             <td>King of Fighters (KOF)</td>
-            <td><p>King of fighters is a game fighting game where you can pick between many fighters with a lot of differents game modes.</p></td>
+            <td>
+                <p>King of fighters is a game fighting game where you can pick between many fighters with a lot of differents game modes.</p>
+            </td>
             <td><img src="../imgs/KofMenu.png" alt="game img2" class="gameImg"></td>
-            <td><a href="https://play.google.com/store/apps/details?id=com.snkplaymore.android010&hl=es"><img src="../imgs/KofLogo.png" alt="link img2" class="logoImg"></a></td>      
-            </tr>
-        </table>
-        
-                <table id="nSwitch">
-                    <tr><th colspan="4"><strong>Game list (Nintendo Switch)</strong><a href="#smartTable"><img src="../imgs/arrowUp.png" alt="upArrow" class="arrow"></a><a href="#bottom"><img src="../imgs/arrowDown.png" alt="downArrow" class="arrow"></a></th></tr>
-            <tr>
+            <td><a href="https://play.google.com/store/apps/details?id=com.snkplaymore.android010&hl=es"><img src="../imgs/KofLogo.png" alt="link img2" class="logoImg"></a></td>
+        </tr>
+    </table>
+
+    <table id="nSwitch">
+        <tr>
+            <th colspan="4"><strong>Game list (Nintendo Switch)</strong><a href="#smartTable"><img src="../imgs/arrowUp.png" alt="upArrow" class="arrow"></a><a href="#bottom"><img src="../imgs/arrowDown.png" alt="downArrow" class="arrow"></a></th>
+        </tr>
+        <tr>
             <td>Name</td>
-            <td>Description</td>    
+            <td>Description</td>
             <td>Image</td>
-            <td>Link</td>      
-            </tr>
-                        <tr>
+            <td>Link</td>
+        </tr>
+        <tr>
             <td>Moster Hunter Generation ultimate</td>
-            <td><p>Is the newest installment in the popular Monster Hunter action RPG series, which has sold more than 36 million units worldwide. This is the most customizable Monster Hunter experience to date, and it serves as a fitting tribute to the last decade of the series with a blend of brand new areas and monsters, and returning fan-favorites that have been updated and adapted to the newest generation of gameplay.</p></td>
+            <td>
+                <p>Is the newest installment in the popular Monster Hunter action RPG series, which has sold more than 36 million units worldwide. This is the most customizable Monster Hunter experience to date, and it serves as a fitting tribute to the last decade of the series with a blend of brand new areas and monsters, and returning fan-favorites that have been updated and adapted to the newest generation of gameplay.</p>
+            </td>
             <td><img src="../imgs/mhguImg.jpg" alt="game ns1" class="gameImg"></td>
-            <td><a href="https://www.nintendo.com/games/detail/monster-hunter-generations-ultimate-switch"><img src="../imgs/mhguCover.jpg" alt="link img3" class="logoImg"></a></td>      
-            </tr>
-                        <tr>
+            <td><a href="https://www.nintendo.com/games/detail/monster-hunter-generations-ultimate-switch"><img src="../imgs/mhguCover.jpg" alt="link img3" class="logoImg"></a></td>
+        </tr>
+        <tr>
             <td>Super Smash Bros Ultimate</td>
-            <td><p>Crossover fighting game developed by Bandai Namco Studios and Sora Ltd. and published by Nintendo for the Nintendo Switch. It is the fifth installment in the Super Smash Bros. series, succeeding Super Smash Bros. for Nintendo 3DS and Wii U. The game follows the series' traditional style of gameplay: controlling one of various characters, players must use differing attacks to weaken their opponents and knock them out of an arena. It features a wide variety of game modes, including a campaign for a single player and multiplayer versus modes. Ultimate includes every playable character from previous Super Smash Bros. games ranging from Nintendo's mascots to characters from third party franchises and several newcomers. </p></td>
+            <td>
+                <p>Crossover fighting game developed by Bandai Namco Studios and Sora Ltd. and published by Nintendo for the Nintendo Switch. It is the fifth installment in the Super Smash Bros. series, succeeding Super Smash Bros. for Nintendo 3DS and Wii U. The game follows the series' traditional style of gameplay: controlling one of various characters, players must use differing attacks to weaken their opponents and knock them out of an arena. It features a wide variety of game modes, including a campaign for a single player and multiplayer versus modes. Ultimate includes every playable character from previous Super Smash Bros. games ranging from Nintendo's mascots to characters from third party franchises and several newcomers. </p>
+            </td>
             <td><img src="../imgs/ssbuImg.jpg" alt="game ns2" class="gameImg"></td>
-            <td><a href="https://www.smashbros.com/en_US/"><img src="../imgs/ssbuICover.jpg" alt="link img4" class="logoImg"></a></td>      
+            <td><a href="https://www.smashbros.com/en_US/"><img src="../imgs/ssbuICover.jpg" alt="link img4" class="logoImg"></a></td>
+        </tr>
+    </table>
+    <h3>Send my your opinion</h3>
+    <form>
+        <table id="formTable">
+            <tr>
+                <td class="tag"><label>User</label></td>
+                <td><input type="text" required></td>
+            </tr>
+            <tr>
+                <td class="tag"><label>Full Name</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="tag"><label>E-mail</label></td>
+                <td><input type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></td>
+            </tr>
+            <tr>
+                <td class="tag"><label>Which game(s) would you play?</label></td>
+                <td class="tag">
+                    <label for="game1">Fate Grand Order</label><input type="checkbox" id="game1"><br>
+                    <label for="game2">King of Fighters</label><input type="checkbox" id="game2"><br>
+                    <label for="game3">Monster Hunter Generation Ultimate</label><input type="checkbox" id="game3"><br>
+                    <label for="game4">Super Smash Bros Ultimate</label><input type="checkbox" id="game4"></td>
+            </tr>
+            <tr>
+                <td class="tag"><label>Which one you prefer?</label></td>
+                <td><select name="games">
+                        <option value="FGO">Fate Grand Order</option>
+                        <option value="KOF">King of fighters</option>
+                        <option value="MHGU">Monster Hunter Generation Ultimate</option>
+                        <option value="SSBU">Super Smah Bros Ultimate</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td colspan="2"><textarea name="comment" rows="10" cols="50" placeholder="Write here your comment" required></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="comfirm">Are you Human</label><input type="checkbox" id="comfirm" required></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Submit"></td>
             </tr>
         </table>
-        <h3>Send my your opinion</h3>
-        <form>
-        <table id="formTable">
-        <tr><td class="tag"><label>User</label></td><td><input type="text" required></td></tr>
-        <tr><td class="tag"><label>Full Name</label></td><td><input type="text"></td></tr>
-        <tr><td class="tag"><label>E-mail</label></td><td><input type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></td></tr>   
-        <tr><td class="tag"><label>Which game(s) would you play?</label></td>
-        <td class="tag">
-        <label for="game1">Fate Grand Order</label><input type="checkbox" id="game1"><br>  
-        <label for="game2">King of Fighters</label><input type="checkbox" id="game2"><br>
-        <label for="game3">Monster Hunter Generation Ultimate</label><input type="checkbox" id="game3"><br>
-        <label for="game4">Super Smash Bros Ultimate</label><input type="checkbox" id="game4"></td></tr> 
-        <tr><td class="tag"><label>Which one you prefer?</label></td><td><select name="games">
-            <option value="FGO">Fate Grand Order</option>
-            <option value="KOF">King of fighters</option>
-            <option value="MHGU">Monster Hunter Generation Ultimate</option>
-            <option value="SSBU">Super Smah Bros Ultimate</option>
-            </select></td></tr> 
-            <tr><td colspan="2"><textarea name="comment" rows="10" cols="50" placeholder="Write here your comment" required></textarea></td></tr>
-        <tr><td colspan="2"><label for="comfirm">Are you Human</label><input type="checkbox" id="comfirm" required></td></tr> 
-            <tr><td colspan="2"><input type="submit" value="Submit"></td></tr> 
-        </table>
-            </form>
-                <h5><a href="#main">Back top</a></h5> 
-        <h5><a href="../index.html" id="bottom">Return</a></h5>
-        
-    </body>
+    </form>
+    <h5><a href="../index.html" id="bottom">Return</a></h5>
+
+</body>
+
 </html>
